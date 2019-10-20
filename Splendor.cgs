@@ -1,0 +1,16 @@
+/*
+ * splendor.cgs
+ *
+ * Created by crism on Oct 10, 2019
+ */
+ 
+ 
+ class Splendor extends Game
+ 
+ method Splendor()
+        
+        
+        
+    end
+end
+

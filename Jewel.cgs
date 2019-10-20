@@ -1,0 +1,15 @@
+/*
+ * Jewel.cgs
+ *
+ * Jewel in the game splendor
+ */
+
+enum Jewel
+
+    Ruby,
+    Emerald,
+    Saphire,
+    Diamond,
+    Obsidian;
+
+end

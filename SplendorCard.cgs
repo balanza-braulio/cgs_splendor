@@ -1,0 +1,14 @@
+/*
+ * SplendorCard.cgs
+ *
+ * Class of a card in the game Splendor
+ * 
+ */
+ 
+ import Splendor.Jewel.cgs;
+
+class SplendorCard
+
+    var 
+
+end
