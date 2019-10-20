@@ -4,3 +4,39 @@
  * Created by crism on Oct 20, 2019
  */
 
+
+y := Splendor.Jewel.Ruby();
+
+
+ method Card(/* Points */ p, /* Rubies */ r, /* Emeralds */ e, /* Sapphires */ s, /* Diamonds */ d, /* Obsidian */ o)
+    
+        points := 0;
+    
+        // Insert all of the jewels into the array;
+        for i from 0 to r do
+        jewels.Add(Jewel.Ruby);
+        end
+        
+        for i from 0 to e do
+        jewels.Add(Jewel.Emerald);
+        end
+        
+        for i from 0 to s do
+        jewels.Add(Jewel.Sapphire);
+        end
+        
+        for i from 0 to d do
+        jewels.Add(Jewel.Diamond);
+        end
+        
+        for i from 0 to o do
+        jewels.Add(Jewel.Obsidian);
+        end
+        
+    end
+    
+    override property ToString.get
+    
+    return "Points: " + this.points + " Cost: " + this.jewels;
+    
+    end

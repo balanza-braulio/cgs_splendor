@@ -1,0 +1,27 @@
+/*
+ * SplendorCard.cgs
+ *
+ * Class of a card in the game Splendor
+ * 
+ */
+ 
+import Splendor.Jewel;
+
+class Card
+
+    //var jewels := [];
+    var points := 0;
+    
+    // Initializes a card with that specific points and cost
+   method Card()
+   
+   points := Jewel.Ruby;
+   
+   end
+   
+   override property ToString.get
+   
+   return "Card";
+   
+   end
+end
