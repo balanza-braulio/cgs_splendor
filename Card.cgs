@@ -4,24 +4,28 @@
  * Class of a card in the game Splendor
  * 
  */
- 
-import Splendor.Jewel;
+
 
 class Card
 
-    //var jewels := [];
-    var points := 0;
+    var jewels;
+    var points;
+    var type;
     
     // Initializes a card with that specific points and cost
-   method Card()
-   
-   points := Jewel.Ruby;
-   
-   end
-   
-   override property ToString.get
-   
-   return "Card";
-   
-   end
+   method Card(/* Points */ Integer p, /*Type*/ Jewel t, /* Rubies */ Integer r, /* Emeralds */ Integer e, /* Sapphires */ Integer s, /* Diamonds */ Integer d, /* Obsidian */ Integer o)
+        
+        type := t;
+        points := p;
+        jewels := {Jewel.Ruby => r, Jewel.Emerald => e, Jewel.Sapphire => s, Jewel.Diamond => d, Jewel.Obsidian => o};
+    
+        // Insert all of the jewels into the array;
+        
+    end
+    
+    override property ToString.get
+    
+    return "Points: " + this.points.ToString + " Type: " + this.type.ToString + " Cost: " + this.jewels.ToString ;
+    
+    end
 end

@@ -8,7 +8,7 @@ enum Jewel
 
     Ruby,
     Emerald,
-    Saphire,
+    Sapphire,
     Diamond,
     Obsidian,
     Gold;
