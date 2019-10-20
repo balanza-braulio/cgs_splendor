@@ -10,6 +10,6 @@ enum Jewel
     Emerald,
     Saphire,
     Diamond,
-    Obsidian;
-    
+    Obsidian,
+    Gold;
 end
