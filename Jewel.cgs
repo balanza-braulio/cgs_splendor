@@ -11,5 +11,5 @@ enum Jewel
     Saphire,
     Diamond,
     Obsidian;
-
+    
 end

@@ -9,6 +9,14 @@
 
 class SplendorCard
 
-    var 
+    var jewels := [];
+    
+    // Initializes a card with that specific cost
+    method SplendorCard(r, e, s, d, o)
+        //for i from 0 to r do
+        
+        //end
+    
+    end
 
 end
