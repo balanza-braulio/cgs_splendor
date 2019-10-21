@@ -1,0 +1,30 @@
+/*
+ * splendor.cgs
+ *
+ * Created by crism on Oct 10, 2019
+ */
+ 
+ 
+ class SplendorCombinatorial extends Game
+ 
+ // Set of the properties and nobles in the game
+ var properties;
+ var nobles;
+ 
+ // List of properties and nobles, and jewels for player 1;
+ var p1Properties;
+ var p1Nobles;
+ var p1Jewels;
+ 
+ // List of properties and nobles and jewels for player 2;
+ var p2Properties;
+ var p2Nobles;
+ var p2Jewels;
+ 
+ 
+ 
+ method Splendor()
+        
+    end
+end
+
