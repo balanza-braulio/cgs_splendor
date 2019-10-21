@@ -21,10 +21,27 @@
  var p2Nobles;
  var p2Jewels;
  
- 
- 
- method Splendor()
-        
+ method SplendorCombinatorial()
+    
+//    p1Properties := [];
+//    p1Nobles := [];
+//    p1Jewels := {Jewel.Ruby => 0, Jewel.Emerald => 0, Jewel.Sapphire => 0, Jewel.Diamond => 0, Jewel.Obsidian => 0};
+//    
+//    p2Properties := [];
+//    p2Nobles := [];
+//    p2Jewels := {Jewel.Ruby => 0, Jewel.Emerald => 0, Jewel.Sapphire => 0, Jewel.Diamond => 0, Jewel.Obsidian => 0};
+    
+    this.properties := {};
+    this.nobles := {};
+    
+    end
+    
+    override method Options(SplendorPlayer player)
+    
+    end
+    
+    override property ToString.get
+    
     end
 end
 

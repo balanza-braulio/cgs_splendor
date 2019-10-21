@@ -1,0 +1,20 @@
+/*
+ * SplendorPlayer.cgs
+ *
+ * Created by crism on Oct 20, 2019
+ */
+
+class SplendorPlayer extends Player
+
+ var Properties;
+ var Nobles;
+ var Jewels;
+ 
+ method SplendorPlayer()
+ 
+    Properties := [];
+    Nobles := [];
+    Jewels := {Jewel.Ruby => 0, Jewel.Emerald => 0, Jewel.Sapphire => 0, Jewel.Diamond => 0, Jewel.Obsidian => 0};
+ 
+ end
+end

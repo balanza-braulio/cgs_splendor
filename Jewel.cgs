@@ -12,4 +12,5 @@ enum Jewel
     Diamond,
     Obsidian,
     Gold;
+    
 end
