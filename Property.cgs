@@ -18,30 +18,30 @@ class Property
         
         type := t;
         points := p;
-        jewels := { => };
-        //jewels := {Jewel.Ruby => r, Jewel.Emerald => e, Jewel.Sapphire => s, Jewel.Diamond => d, Jewel.Obsidian => o};
+        //jewels := { => };
+        jewels := {Jewel.Ruby => r, Jewel.Emerald => e, Jewel.Sapphire => s, Jewel.Diamond => d, Jewel.Obsidian => o};
         
         // Insert all of the jewels into the map jewels;
         costString := " Cost: ";
         if r != 0 then
         costString := costString + "Rubies = " + r.ToString + ", ";
-        jewels[Jewel.Ruby] := r;
+        //jewels[Jewel.Ruby] := r;
         end
         if e != 0 then
         costString := costString + "Emeralds = " + e.ToString + ", ";
-        jewels[Jewel.Emerald] := e;
+        //jewels[Jewel.Emerald] := e;
         end
         if s != 0 then
         costString := costString + "Sapphires = " + s.ToString + ", ";
-        jewels[Jewel.Sapphire] := s;
+        //jewels[Jewel.Sapphire] := s;
         end
         if e != 0 then
         costString := costString + "Diamonds = " + d.ToString + ", ";
-        jewels[Jewel.Diamond] := d;
+        //jewels[Jewel.Diamond] := d;
         end
         if o != 0 then
         costString := costString + "Obsidian = " + o.ToString + ".";
-        jewels[Jewel.Obsidian] := o;
+        //jewels[Jewel.Obsidian] := o;
         end
         
 
@@ -50,7 +50,7 @@ class Property
     
     override property ToString.get
     
-    return "Points: " + this.points.ToString + " Type: " + this.type.ToString + this.costString/*" Cost: " + this.jewels.ToString*/ ;
+    return "Points: " + this.points.ToString + " Type: " + this.type.ToString + this.costString /*+ this.jewels.ToString */;
     
     end
 end
